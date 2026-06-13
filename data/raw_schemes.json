@@ -1,1 +1,646 @@
-
+{
+  "schemes": [
+    {
+      "id": "SCH_001",
+      "scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+      "short_name": "PM-KISAN",
+      "ministry": "Ministry of Agriculture & Farmers' Welfare",
+      "launched_on": "February 24, 2019",
+      "category": "Agriculture & Farmer Welfare",
+      "tags": ["farmer", "agriculture", "income support", "rural", "DBT"],
+      "description": "PM-KISAN is a central government scheme providing direct income support of ₹6,000 per year to eligible landholding farmer families across India. The amount is transferred in three equal installments directly into the bank accounts of beneficiaries to supplement financial needs for agricultural inputs.",
+      "benefits": {
+        "summary": "₹6,000 per year in 3 equal installments of ₹2,000 every four months",
+        "mode_of_payment": "Direct Benefit Transfer (DBT) into Aadhaar-linked bank account",
+        "additional_benefits": [
+          "Kisan Credit Card (KCC) linkage available",
+          "No repayment required : it is a grant, not a loan"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "All land-holding farmer families (husband, wife, and minor children) with cultivable land",
+          "Farmers in all states and UTs of India"
+        ],
+        "exclusions": [
+          "Institutional landholders",
+          "Former/current constitutional post holders",
+          "Current/retired Government employees",
+          "Income taxpayers",
+          "Professionals (doctors, engineers, lawyers)"
+        ],
+        "age_limit": "No specific age restriction; the family is the unit"
+      },
+      "documents_required": [
+        "Aadhaar Card (mandatory)",
+        "Land Ownership Records / Khasra-Khatauni",
+        "Bank Account Details (linked with Aadhaar)",
+        "Registered Mobile Number",
+        "Citizenship proof / Passport-size photograph"
+      ],
+      "application_mode": {
+        "online": "Visit pmkisan.gov.in → Farmers Corner → New Farmer Registration",
+        "offline": "Visit nearest CSC or the local Patwari/Revenue Officer"
+      },
+      "common_rejection_reasons": [
+        "Incomplete e-KYC",
+        "Bank account mismatch or not Aadhaar seeded",
+        "Land record mismatch",
+        "Duplicate registration"
+      ],
+      "faq": [
+        {
+          "question": "How much assistance is provided?",
+          "answer": "₹6,000 annually in three equal installments."
+        },
+        {
+          "question": "Is Aadhaar mandatory?",
+          "answer": "Yes, Aadhaar verification and seeding with the bank account is mandatory."
+        }
+      ],
+      "helpline": "155261 / 011-24300606",
+      "official_website": "https://pmkisan.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_002",
+      "scheme_name": "Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana",
+      "short_name": "AB-PMJAY",
+      "ministry": "Ministry of Health and Family Welfare",
+      "launched_on": "September 23, 2018",
+      "category": "Health & Medical Insurance",
+      "tags": ["health", "insurance", "cashless treatment", "hospital", "poor", "ayushman"],
+      "description": "The world's largest government-funded healthcare program aimed at providing health cover to poor and vulnerable families for secondary and tertiary care hospitalization. Extended to cover all senior citizens aged 70+ regardless of income.",
+      "benefits": {
+        "summary": "Health insurance cover of up to ₹5 lakh per family per year",
+        "mode_of_payment": "Cashless and paperless treatment at empanelled public and private hospitals",
+        "additional_benefits": [
+          "Covers pre-hospitalisation (3 days) and post-hospitalisation (15 days)",
+          "Nationwide portability",
+          "Digital Ayushman Card (Golden Card) issued"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Vulnerable families identified by SECC 2011 database",
+          "SC/ST households, landless households, primitive tribal groups",
+          "All senior citizens aged 70 years and above"
+        ],
+        "exclusions": [
+          "Households owning motorised vehicles",
+          "Income-tax payers and government employees",
+          "Families with 5+ acres of agricultural land"
+        ],
+        "age_limit": "No age limit for SECC beneficiaries; special category for 70+"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Ration Card or Family Identification Document",
+        "Active mobile number"
+      ],
+      "application_mode": {
+        "online": "Check eligibility online at beneficiary.nha.gov.in, complete e-KYC",
+        "offline": "Empanelled hospitals, CSCs, or PMJAY Mitra"
+      },
+      "common_rejection_reasons": [
+        "Name not present in SECC 2011 database",
+        "Aadhaar demographic mismatch"
+      ],
+      "faq": [
+        {
+          "question": "What is the coverage amount?",
+          "answer": "Up to ₹5 lakh per family annually."
+        },
+        {
+          "question": "Can treatment be taken in private hospitals?",
+          "answer": "Yes, provided the private hospital is empanelled under the scheme."
+        }
+      ],
+      "helpline": "14555 / 1800-111-565",
+      "official_website": "https://pmjay.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_003",
+      "scheme_name": "Pradhan Mantri Awas Yojana (Urban & Gramin)",
+      "short_name": "PMAY",
+      "ministry": "Ministry of Housing and Urban Affairs / Ministry of Rural Development",
+      "launched_on": "June 25, 2015",
+      "category": "Housing",
+      "tags": ["housing", "home loan subsidy", "urban", "rural", "affordable housing", "house"],
+      "description": "India's flagship housing mission to provide affordable and pucca (permanent) houses to all eligible citizens. Offers financial assistance, credit-linked interest subsidies (CLSS), and direct grants for construction or purchase of homes.",
+      "benefits": {
+        "summary": "Financial assistance and interest subsidies for house construction/purchase",
+        "mode_of_payment": "Direct grant to bank account / Interest subsidy credited to loan account",
+        "additional_benefits": [
+          "Up to 6.5% interest subsidy on home loans (EWS/LIG)",
+          "Direct rural grant up to ₹1.30 lakh for house construction",
+          "Convergence with Swachh Bharat (toilets) and Ujjwala (LPG)"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Indian citizens with no pucca house anywhere in India",
+          "Income categories: EWS (up to ₹3L), LIG (₹3-6L), MIG-I (₹6-12L), MIG-II (₹12-18L)"
+        ],
+        "exclusions": [
+          "Individuals who already own a pucca house",
+          "Those who previously availed central housing subsidies",
+          "Families with annual income above ₹18 lakh"
+        ],
+        "age_limit": "Adult applicant"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Proof of Income / Income Certificate",
+        "Bank account details",
+        "Property documents (if applying for subsidy on construction)",
+        "Self-declaration affidavit of not owning a pucca house"
+      ],
+      "application_mode": {
+        "online": "Visit pmaymis.gov.in (Urban) → Citizen Assessment",
+        "offline": "Gram Panchayat (Rural), CSCs, or Urban Local Body (ULB) office"
+      },
+      "common_rejection_reasons": [
+        "Applicant already owns a pucca house",
+        "Income exceeds permissible limits for the chosen category",
+        "Property is located outside eligible scheme limits"
+      ],
+      "faq": [
+        {
+          "question": "Is joint ownership mandatory?",
+          "answer": "Yes, property is preferably registered in the name of the female head or jointly with a male head."
+        }
+      ],
+      "helpline": "1800-11-3377 / 1800-11-3388",
+      "official_website": "https://pmaymis.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_004",
+      "scheme_name": "Pradhan Mantri Jan Dhan Yojana",
+      "short_name": "PMJDY",
+      "ministry": "Ministry of Finance",
+      "launched_on": "August 28, 2014",
+      "category": "Financial Inclusion",
+      "tags": ["banking", "zero balance", "financial inclusion", "insurance", "RuPay card", "jan dhan"],
+      "description": "A national mission for financial inclusion ensuring access to basic financial services like savings accounts, remittances, credit, insurance, and pensions in an affordable manner.",
+      "benefits": {
+        "summary": "Zero balance savings bank account",
+        "mode_of_payment": "Direct banking access",
+        "additional_benefits": [
+          "Free RuPay debit card",
+          "Accidental insurance cover of ₹2 lakh",
+          "Overdraft facility of up to ₹10,000 for eligible account holders",
+          "Direct Benefit Transfer (DBT) ready"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Any Indian citizen aged 10 years and above",
+          "Unbanked individuals"
+        ],
+        "exclusions": [
+          "Individuals who already hold a savings bank account"
+        ],
+        "age_limit": "Minimum 10 years old"
+      },
+      "documents_required": [
+        "Aadhaar Card or PAN Card",
+        "Passport size photographs",
+        "Any valid KYC document (Voter ID, Driving License, NREGA Card)"
+      ],
+      "application_mode": {
+        "online": "Download form from pmjdy.gov.in and submit to bank",
+        "offline": "Any bank branch or Business Correspondent (Bank Mitra) outlet"
+      },
+      "common_rejection_reasons": [
+        "Applicant already has an existing savings account",
+        "Incomplete KYC documentation"
+      ],
+      "faq": [
+        {
+          "question": "Is there a minimum balance requirement?",
+          "answer": "No, PMJDY is a zero-balance account scheme."
+        }
+      ],
+      "helpline": "1800-11-0001 / 1800-180-1111",
+      "official_website": "https://pmjdy.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_005",
+      "scheme_name": "Pradhan Mantri Ujjwala Yojana",
+      "short_name": "PMUY",
+      "ministry": "Ministry of Petroleum and Natural Gas",
+      "launched_on": "May 1, 2016",
+      "category": "Women Empowerment & Clean Energy",
+      "tags": ["LPG", "cooking gas", "women", "BPL", "clean fuel", "rural"],
+      "description": "Provides free LPG connections to women belonging to Below Poverty Line (BPL) and marginalized families, replacing hazardous cooking fuels with clean gas to improve health.",
+      "benefits": {
+        "summary": "Free LPG connection with financial assistance of ₹1,600",
+        "mode_of_payment": "Direct provision of hardware and subsidy to bank account",
+        "additional_benefits": [
+          "Free first refill and free hotplate (stove)",
+          "₹300 targeted subsidy per cylinder (up to 12 refills/year)",
+          "No security deposit required"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Adult women (18+ years) from BPL, SC/ST, PMAY-G, AAY households",
+          "Tea garden tribes, forest dwellers"
+        ],
+        "exclusions": [
+          "Households that already possess an LPG connection"
+        ],
+        "age_limit": "Applicant must be an adult woman (18+ years)"
+      },
+      "documents_required": [
+        "Aadhaar Card (mandatory)",
+        "Ration Card / BPL Certificate",
+        "Bank account details / IFSC code",
+        "Supplementary KYC form"
+      ],
+      "application_mode": {
+        "online": "Apply via pmuy.gov.in",
+        "offline": "Nearest LPG distributor (IndianOil, HP, Bharat Gas)"
+      },
+      "common_rejection_reasons": [
+        "Existing LPG connection found in the household",
+        "Aadhaar linked to another active connection"
+      ],
+      "faq": [
+        {
+          "question": "Who can apply?",
+          "answer": "Adult women from eligible poor households with no existing LPG connection."
+        }
+      ],
+      "helpline": "1906 / 1800-266-6696 / 1800-233-3555",
+      "official_website": "https://www.pmuy.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_006",
+      "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Act",
+      "short_name": "MGNREGA",
+      "ministry": "Ministry of Rural Development",
+      "launched_on": "February 2, 2006",
+      "category": "Employment",
+      "tags": ["employment", "job guarantee", "rural", "nrega", "wage"],
+      "description": "A social security measure that guarantees the 'right to work' by providing at least 100 days of wage employment in a financial year to rural households whose adult members volunteer to do unskilled manual work.",
+      "benefits": {
+        "summary": "100 days of guaranteed unskilled manual labor at statutory minimum wages",
+        "mode_of_payment": "Direct Bank Transfer to worker's account",
+        "additional_benefits": [
+          "Unemployment allowance paid if work is not provided within 15 days of demand",
+          "Facilities like crèche, drinking water, and first aid at worksites"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Adult members (18+ years) of a rural household",
+          "Willing to do unskilled manual labor"
+        ],
+        "exclusions": [
+          "Urban residents"
+        ],
+        "age_limit": "Minimum 18 years"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Voter ID / PAN Card",
+        "Bank or Post Office account details",
+        "Passport size photographs"
+      ],
+      "application_mode": {
+        "online": "Limited; mostly offline processing",
+        "offline": "Local Gram Panchayat"
+      },
+      "common_rejection_reasons": [
+        "Applicant does not reside in the rural area of the specified Gram Panchayat",
+        "Incomplete banking details"
+      ],
+      "faq": [
+        {
+          "question": "What happens if work is not given?",
+          "answer": "The applicant is entitled to a daily unemployment allowance if work is not provided within 15 days."
+        }
+      ],
+      "helpline": "State specific toll-free numbers",
+      "official_website": "https://nrega.nic.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_007",
+      "scheme_name": "Sukanya Samriddhi Yojana",
+      "short_name": "SSY",
+      "ministry": "Ministry of Finance",
+      "launched_on": "January 22, 2015",
+      "category": "Savings & Girl Child Welfare",
+      "tags": ["girl child", "savings", "education", "tax benefit", "Beti Bachao", "post office"],
+      "description": "A small deposit savings scheme launched under 'Beti Bachao Beti Padhao' encouraging parents to build a fund for the future education and marriage expenses of their female child.",
+      "benefits": {
+        "summary": "High-interest savings account (currently ~8.2% p.a., reviewed quarterly)",
+        "mode_of_payment": "Deposit account",
+        "additional_benefits": [
+          "Fully EEE tax-exempt status (Exempt on deposit under 80C, interest, and maturity)",
+          "Account matures 21 years from opening date or on marriage after 18",
+          "Partial withdrawal allowed for higher education at age 18"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Biological parents or legal guardians of a girl child",
+          "Maximum of two accounts per family (allowed for three in case of twins/triplets)"
+        ],
+        "exclusions": [
+          "Girl child above 10 years of age",
+          "NRIs"
+        ],
+        "age_limit": "Girl child must be below 10 years of age at account opening"
+      },
+      "documents_required": [
+        "Birth Certificate of the girl child (mandatory)",
+        "Aadhaar Card / ID proof of parent/guardian",
+        "Address proof of parent/guardian",
+        "Photographs of parent and child"
+      ],
+      "application_mode": {
+        "online": "Net banking (in select banks) / India Post Payments Bank app",
+        "offline": "Any authorized commercial bank or Post Office"
+      },
+      "common_rejection_reasons": [
+        "Child exceeds age limit of 10 years",
+        "Attempting to open more than one account for the same child"
+      ],
+      "faq": [
+        {
+          "question": "What is the minimum deposit?",
+          "answer": "₹250 per year."
+        }
+      ],
+      "helpline": "1800-266-6868",
+      "official_website": "https://www.nsiindia.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_008",
+      "scheme_name": "Pradhan Mantri Mudra Yojana",
+      "short_name": "PMMY",
+      "ministry": "Ministry of Finance",
+      "launched_on": "April 8, 2015",
+      "category": "Entrepreneurship & Micro-finance",
+      "tags": ["business loan", "self-employment", "MSME", "micro enterprise", "no collateral"],
+      "description": "Provides collateral-free micro-credit to non-corporate, non-farm small and micro-enterprises to promote entrepreneurship.",
+      "benefits": {
+        "summary": "Loans up to ₹10 lakh without collateral",
+        "mode_of_payment": "Bank loan disbursement",
+        "additional_benefits": [
+          "Three categories: Shishu (up to ₹50k), Kishore (₹50k-₹5L), Tarun (₹5L-₹10L)",
+          "MUDRA RuPay Debit Card for working capital"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Indian citizens with a business plan for non-farm income-generating activity",
+          "New or existing small businesses, artisans, shopkeepers"
+        ],
+        "exclusions": [
+          "Agricultural crop activities",
+          "Defaulters to any bank or financial institution"
+        ],
+        "age_limit": "Minimum 18 years"
+      },
+      "documents_required": [
+        "Aadhaar / PAN Card",
+        "Proof of business address and identity",
+        "Business plan / Project report",
+        "Supplier details for machinery",
+        "Bank account statement"
+      ],
+      "application_mode": {
+        "online": "Udyamimitra portal (udyamimitra.in)",
+        "offline": "Commercial banks, RRBs, SFBs, MFIs"
+      },
+      "common_rejection_reasons": [
+        "Poor credit score / CIBIL rating",
+        "Unviable business plan",
+        "Existing default history"
+      ],
+      "faq": [
+        {
+          "question": "Is collateral required?",
+          "answer": "No, MUDRA loans are collateral-free."
+        }
+      ],
+      "helpline": "1800-180-1111",
+      "official_website": "https://www.mudra.org.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_009",
+      "scheme_name": "Atal Pension Yojana",
+      "short_name": "APY",
+      "ministry": "Ministry of Finance",
+      "launched_on": "May 9, 2015",
+      "category": "Social Security & Pension",
+      "tags": ["pension", "retirement", "unorganised sector", "old age"],
+      "description": "A guaranteed pension scheme primarily targeted at unorganized sector workers to provide them with social security in their old age.",
+      "benefits": {
+        "summary": "Guaranteed minimum monthly pension from ₹1,000 to ₹5,000 post age 60",
+        "mode_of_payment": "Monthly auto-debit of contributions; Monthly pension credit post 60",
+        "additional_benefits": [
+          "Spouse continues receiving pension upon subscriber's death",
+          "Nominee receives corpus upon death of both subscriber and spouse",
+          "Tax benefits under Section 80CCD(1)"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Indian citizens aged 18 to 40 years",
+          "Must hold a savings bank account"
+        ],
+        "exclusions": [
+          "Income tax payers are no longer eligible to join (effective Oct 2022)"
+        ],
+        "age_limit": "18 to 40 years at enrollment"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Savings Bank Account Details",
+        "Active Mobile Number",
+        "Nominee details"
+      ],
+      "application_mode": {
+        "online": "Net banking or eAPY via npscra.nsdl.co.in",
+        "offline": "Bank branch or post office"
+      },
+      "common_rejection_reasons": [
+        "Applicant age is above 40",
+        "Applicant is an income tax payer",
+        "Bank account lacking KYC"
+      ],
+      "faq": [
+        {
+          "question": "What happens if the subscriber dies?",
+          "answer": "The spouse receives the same pension. If both pass away, the accumulated corpus is given to the nominee."
+        }
+      ],
+      "helpline": "1800-110-069",
+      "official_website": "https://npscra.nsdl.co.in/nsdl/scheme-details/apy",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_010",
+      "scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+      "short_name": "PMMVY",
+      "ministry": "Ministry of Women and Child Development",
+      "launched_on": "January 1, 2017",
+      "category": "Women & Child Welfare / Maternity Benefits",
+      "tags": ["maternity", "pregnancy", "women", "mother", "cash benefit"],
+      "description": "A direct benefit scheme providing financial assistance to pregnant women and lactating mothers to compensate for wage loss, encourage institutional delivery, and ensure nutrition.",
+      "benefits": {
+        "summary": "Up to ₹5,000 for the first child; ₹6,000 for the second child (if girl)",
+        "mode_of_payment": "Direct Bank Transfer in installments",
+        "additional_benefits": [
+          "Convergence with Janani Suraksha Yojana (JSY)"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Pregnant women and lactating mothers (19+ years)",
+          "Women from disadvantaged sections, BPL, SC/ST, MGNREGA workers"
+        ],
+        "exclusions": [
+          "Women employed in Central/State Govt or PSUs",
+          "Women receiving similar paid maternity benefits"
+        ],
+        "age_limit": "Minimum 19 years at conception"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Bank Account Passbook",
+        "MCP (Mother and Child Protection) Card",
+        "Pregnancy Registration proof"
+      ],
+      "application_mode": {
+        "online": "Visit pmmvy.wcd.gov.in or UMANG app",
+        "offline": "Nearest Anganwadi Centre or ASHA worker"
+      },
+      "common_rejection_reasons": [
+        "Applicant is a government employee",
+        "Age at conception is below 19"
+      ],
+      "faq": [
+        {
+          "question": "Do I get benefits for a second child?",
+          "answer": "Yes, under PMMVY 2.0, ₹6,000 is provided if the second child is a girl."
+        }
+      ],
+      "helpline": "7998799804 / 181",
+      "official_website": "https://pmmvy.wcd.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_011",
+      "scheme_name": "Pradhan Mantri Garib Kalyan Anna Yojana",
+      "short_name": "PMGKAY",
+      "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+      "launched_on": "March 26, 2020",
+      "category": "Food Security & Nutrition",
+      "tags": ["free ration", "food security", "BPL", "ration card", "NFSA"],
+      "description": "Provides free foodgrains to the poor, fully integrating into the National Food Security Act (NFSA) structure to ensure no one goes hungry.",
+      "benefits": {
+        "summary": "5 kg free foodgrains per person per month",
+        "mode_of_payment": "Direct distribution via Public Distribution System (PDS)",
+        "additional_benefits": [
+          "35 kg per household for Antyodaya Anna Yojana (AAY) cardholders",
+          "One Nation One Ration Card (ONORC) portability"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Households listed under NFSA 2013",
+          "Priority Household (PHH) and AAY ration card holders"
+        ],
+        "exclusions": [
+          "Households not covered under NFSA/without valid ration cards"
+        ],
+        "age_limit": "None; family based"
+      },
+      "documents_required": [
+        "Valid Ration Card (PHH / AAY)",
+        "Aadhaar Card (for biometric authentication at FPS)"
+      ],
+      "application_mode": {
+        "online": "Mera Ration App (for portability)",
+        "offline": "Fair Price Shop (FPS) via biometric authentication"
+      },
+      "common_rejection_reasons": [
+        "Aadhaar not linked with ration card",
+        "Biometric mismatch at the FPS"
+      ],
+      "faq": [
+        {
+          "question": "How long is this scheme active?",
+          "answer": "It has been extended until December 2028."
+        }
+      ],
+      "helpline": "14445 / 1967",
+      "official_website": "https://dfpd.gov.in",
+      "status": "Active"
+    },
+    {
+      "id": "SCH_012",
+      "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+      "short_name": "PM SVANidhi",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "launched_on": "June 1, 2020",
+      "category": "Self Employment",
+      "tags": ["vendor", "loan", "business", "working capital"],
+      "description": "A special micro-credit facility to provide affordable working capital loans to street vendors to resume their livelihoods that were adversely affected during the COVID-19 lockdown.",
+      "benefits": {
+        "summary": "Collateral-free working capital loan starting at ₹10,000",
+        "mode_of_payment": "Direct credit to vendor bank account",
+        "additional_benefits": [
+          "Tranches available for ₹10,000, ₹20,000, and ₹50,000 upon timely repayment",
+          "7% interest subsidy on timely/early repayment",
+          "Cashback incentives for digital transactions"
+        ]
+      },
+      "eligibility_criteria": {
+        "who_can_apply": [
+          "Street vendors vending in urban areas",
+          "Vendors with a Certificate of Vending / Identity Card issued by Urban Local Bodies"
+        ],
+        "exclusions": [
+          "Individuals who are not registered or recognized street vendors"
+        ],
+        "age_limit": "Adults (18+)"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Vendor Certificate or Letter of Recommendation (LoR)",
+        "Bank Account Details"
+      ],
+      "application_mode": {
+        "online": "Visit pmsvanidhi.mohua.gov.in or use the SVANidhi mobile app",
+        "offline": "Apply through Banking Correspondents (BCs) or CSCs"
+      },
+      "common_rejection_reasons": [
+        "Lack of formal vending certificate or LoR",
+        "Aadhaar not linked to the provided mobile number"
+      ],
+      "faq": [
+        {
+          "question": "Can I get a higher loan amount later?",
+          "answer": "Yes, prompt repayment of the ₹10,000 loan makes you eligible for ₹20,000, and subsequently ₹50,000."
+        }
+      ],
+      "helpline": "1800-11-1979",
+      "official_website": "https://pmsvanidhi.mohua.gov.in",
+      "status": "Active"
+    }
+  ]
+}
