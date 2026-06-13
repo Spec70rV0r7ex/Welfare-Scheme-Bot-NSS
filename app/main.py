@@ -18,6 +18,12 @@ twilio_client = Client(account_sid, auth_token)
 def process_and_reply(user_phone: str, user_message: str):
     print("Background: Asking Gemini...")
     try:
+        twilio_client.messages.create(
+            from_ = twilio_number,
+            body = "⏳ _Searching government databases for schemes..._",
+            to = user_phone
+        )
+
         bot_reply = generate_bot_response(user_phone=user_phone, user_message=user_message)
         print("Background: Gemini finished! Pushing to WhatsApp...")
 
